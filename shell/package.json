@@ -27,8 +27,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "serve": "webpack serve",
-    "serve2": "webpack serve --config webpack.config.js"
+    "serve": "webpack serve"
   },
   "eslintConfig": {
     "extends": [

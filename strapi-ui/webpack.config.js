@@ -13,7 +13,7 @@ const moduleFederationPlugin = new ModuleFederationPlugin({
   exposes: {
     "./Button": "./src/components/Button",
     "./Button1": "./src/components/Button1",
-    // "./Button2": "./src/components/Button2",
+    "./List": "./src/components/List"
   },
   shared: {
     react: { singleton: true, eager: true },
